@@ -87,36 +87,7 @@ else:
     print("No frequent sequential patterns found.")
 ```
 ### Output:
-![image](https://github.com/user-attachments/assets/65ce0b50-552e-4ced-a4fa-bb7613daf827)
-
-### Visualization:
-```python
-import matplotlib.pyplot as plt
-# Function to visualize frequent sequential patterns with a line plot
-def visualize_patterns_line(result, category):
-    if result:
-        patterns = list(result.keys())
-        support = list(result.values())
-
-        plt.figure(figsize=(10, 6))
-        plt.plot([str(pattern) for pattern in patterns], support, marker='o', linestyle='-', color='blue')
-        plt.xlabel('Patterns')
-        plt.ylabel('Support Count')
-        plt.title(f'Frequent Sequential Patterns - {category}')
-        plt.xticks(rotation=90)
-        plt.tight_layout()
-        plt.show()
-    else:
-        print(f"No frequent sequential patterns found in {category}.")
-
-# Visualize frequent sequential patterns for each category using a line plot
-visualize_patterns_line(top_wear_result, 'Top Wear')
-visualize_patterns_line(bottom_wear_result, 'Bottom Wear')
-visualize_patterns_line(party_wear_result, 'Party Wear')
-```
-### Output:
-![image](https://github.com/user-attachments/assets/efe41149-b68e-4232-aafe-422275d6cb93)
-![image](https://github.com/user-attachments/assets/6419cb44-4182-4575-9221-26a2e0eb52f7)
+<img width="511" height="811" alt="Screenshot 2025-09-12 081832" src="https://github.com/user-attachments/assets/0675c3ce-524e-4cfd-8f82-7623d6466f84" />
 
 ### Result:
 Thus the implementation of the GSP algorithm in python has been successfully executed.
