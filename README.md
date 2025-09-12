@@ -1,5 +1,7 @@
 ### EX NO : 3 Implementation of GSP Algorithm In Python
 ### DATE : 12/09/2025 
+### NAME : SARISH VARSHAN V
+### REG NO : 212223230196
 ### AIM : To implement GSP Algorithm In Python.
 ### Description:
 The Generalized Sequential Pattern (GSP) algorithm is a data mining technique used for discovering frequent patterns within a sequence database. It operates by identifying sequences that frequently occur together. GSP works by employing a depth-first search strategy to explore and extract frequent patterns efficiently.
