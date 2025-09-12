@@ -1,4 +1,4 @@
-### EX NO : Implementation of GSP Algorithm In Python
+### EX NO : 3 Implementation of GSP Algorithm In Python
 ### DATE : 12/09/2025 
 ### AIM : To implement GSP Algorithm In Python.
 ### Description:
